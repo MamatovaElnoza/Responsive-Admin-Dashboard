@@ -427,3 +427,9 @@ main .recent-orders a {
     padding: 0.2rem;
     border-radius: var(--border-radius-1);
 }
+
+.right .top .profile {
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
