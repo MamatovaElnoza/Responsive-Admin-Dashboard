@@ -8,7 +8,7 @@
     --color-warning: #ffbb55;
     --color-white: #fff;
     --color-info-dark: #7d8da1;
-    --color-info-light: #dceleb;
+    --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
@@ -24,6 +24,17 @@
     --padding-1: 1.2rem;
 
     --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+/* ---------------- DARK THEME VARAIBLES -------------------- */
+.dark-theme-variables {
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: o 2rem 3rem var(--color-light);
 }
 
 
@@ -135,7 +146,7 @@ aside {
 }
 
 aside .top {
-    background: white;
+    background: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -158,7 +169,7 @@ aside .close {
 
 /* ============= SIDEBAR ============== */
 aside .sidebar {
-    background-color: white;
+    background-color: var(--color-background);
     display: flex;
     flex-direction: column;
     height: 86vh;
